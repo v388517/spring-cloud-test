@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-7001/spring-cloud-consumer-7001.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-7001/spring-cloud-consumer-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-feign-7002/spring-cloud-consumer-feign-7002.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-feign-7002/spring-cloud-consumer-feign-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-hystrix-turbine-7003/spring-cloud-consumer-hystrix-turbine-7003.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-hystrix-turbine-7003/spring-cloud-consumer-hystrix-turbine-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server-8001/spring-cloud-eureka-server-8001.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server-8001/spring-cloud-eureka-server-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server-8002/spring-cloud-eureka-server-8002.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server-8002/spring-cloud-eureka-server-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server-8003/spring-cloud-eureka-server-8003.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server-8003/spring-cloud-eureka-server-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-common/spring-cloud-feign-common.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-common/spring-cloud-feign-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-80/spring-cloud-hystrix-dashboard-80.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-80/spring-cloud-hystrix-dashboard-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent.iml" filepath="$PROJECT_DIR$/spring-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-9001/spring-cloud-provider-9001.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-9001/spring-cloud-provider-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-9002/spring-cloud-provider-9002.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-9002/spring-cloud-provider-9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-9003/spring-cloud-provider-9003.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-9003/spring-cloud-provider-9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-hystrix-9004/spring-cloud-provider-hystrix-9004.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-hystrix-9004/spring-cloud-provider-hystrix-9004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-hystrix-turbine-9005/spring-cloud-provider-hystrix-turbine-9005.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-hystrix-turbine-9005/spring-cloud-provider-hystrix-turbine-9005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul-3001/spring-cloud-zuul-3001.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul-3001/spring-cloud-zuul-3001.iml" />
+    </modules>
+  </component>
+</project>

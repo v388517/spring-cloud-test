@@ -1,0 +1,25 @@
+server:
+  port: 3001
+  connection-timeout: 3000
+
+# 数据源配置
+
+eureka:
+  instance:
+    instance-id: microservice-user-zuul:3001 #客户端实例名称
+    prefer-ip-address: true #显示IP
+  client:
+    service-url:
+       #把服务注册到eureka注册中心  集群
+      defaultZone: http://eureka8001.java.com:8001/eureka/,http://eureka8002.java.com:8002/eureka/,http://eureka8003.java.com:8003/eureka/
+spring:
+  application:
+    name: app-zuul
+
+
+
+#info属性
+info:
+   项目名称: spring-cloud-zuul-3001
+   端口: 3001
+   负责人: 小青

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-consumer-7001" />
+        <module name="spring-cloud-consumer-feign-7002" />
+        <module name="spring-cloud-consumer-hystrix-turbine-7003" />
+        <module name="spring-cloud-consumer-hystrix-turbine-7004" />
+        <module name="spring-cloud-eureka-server-8001" />
+        <module name="spring-cloud-eureka-server-8002" />
+        <module name="spring-cloud-eureka-server-8003" />
+        <module name="spring-cloud-feign-common" />
+        <module name="spring-cloud-hystrix-dashboard-80" />
+        <module name="spring-cloud-hystrix-provider-9004" />
+        <module name="spring-cloud-provider-9001" />
+        <module name="spring-cloud-provider-9002" />
+        <module name="spring-cloud-provider-9003" />
+        <module name="spring-cloud-provider-hystrix-9004" />
+        <module name="spring-cloud-provider-hystrix-turbine-9005" />
+        <module name="spring-cloud-provider-hystrix-turbine-9006" />
+        <module name="spring-cloud-zuul-3001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-consumer-7001" target="1.8" />
+      <module name="spring-cloud-consumer-feign-7002" target="1.8" />
+      <module name="spring-cloud-consumer-hystrix-turbine-7003" target="1.8" />
+      <module name="spring-cloud-consumer-hystrix-turbine-7004" target="1.8" />
+      <module name="spring-cloud-eureka-server-8001" target="1.8" />
+      <module name="spring-cloud-eureka-server-8002" target="1.8" />
+      <module name="spring-cloud-eureka-server-8003" target="1.8" />
+      <module name="spring-cloud-feign-common" target="1.8" />
+      <module name="spring-cloud-hystrix-dashboard-80" target="1.8" />
+      <module name="spring-cloud-hystrix-provider-9004" target="1.8" />
+      <module name="spring-cloud-parent" target="1.8" />
+      <module name="spring-cloud-provider-9001" target="1.8" />
+      <module name="spring-cloud-provider-9002" target="1.8" />
+      <module name="spring-cloud-provider-9003" target="1.8" />
+      <module name="spring-cloud-provider-hystrix-9004" target="1.8" />
+      <module name="spring-cloud-provider-hystrix-turbine-9005" target="1.8" />
+      <module name="spring-cloud-provider-hystrix-turbine-9006" target="1.8" />
+      <module name="spring-cloud-zuul-3001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

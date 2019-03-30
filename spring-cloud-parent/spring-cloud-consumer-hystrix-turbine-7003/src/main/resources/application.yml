@@ -1,0 +1,26 @@
+server:
+  port: 7003
+
+# 数据源配置
+
+eureka:
+  client:
+    service-url:
+       #把服务注册到eureka注册中心  集群
+      defaultZone: http://eureka8001.java.com:8001/eureka/,http://eureka8002.java.com:8002/eureka/,http://eureka8003.java.com:8003/eureka/
+spring:
+  application:
+    name: turbine
+
+#设置hystrix断路器默认超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+turbine:
+  app-config: microservice-user #指定监控的应用名称
+  clusterNameException: "'default'"   #集群名称
+

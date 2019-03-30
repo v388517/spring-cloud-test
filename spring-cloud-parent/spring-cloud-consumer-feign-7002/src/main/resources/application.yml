@@ -1,0 +1,26 @@
+server:
+  port: 7002
+#配置
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 9000
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    register-with-eureka: false #不需要检测服务
+    service-url:
+            defaultZone: http://eureka8001.java.com:8001/eureka/,http://eureka8002.java.com:8002/eureka/,http://eureka8003.java.com:8003/eureka/
+
+#设置hystrix断路器默认超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+
+

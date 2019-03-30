@@ -1,0 +1,34 @@
+server:
+  port: 9004
+
+# 数据源配置
+
+eureka:
+  instance:
+    hostname: localhost  #eureka客户端主机实例名称
+    appname: microservice-user  #客户端服务名(与在eureka注册的名称一致)
+    instance-id: microservice-user-hystrix:9004 #客户端实例名称
+    prefer-ip-address: true #显示IP
+  client:
+    service-url:
+       #把服务注册到eureka注册中心  集群
+      defaultZone: http://eureka8001.java.com:8001/eureka/,http://eureka8002.java.com:8002/eureka/,http://eureka8003.java.com:8003/eureka/
+spring:
+  application:
+    name: app-user
+
+#设置hystrix断路器默认超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+
+
+#info属性
+info:
+   项目名称: spring-cloud-provider-9004
+   端口: 9004
+   负责人: 小青
