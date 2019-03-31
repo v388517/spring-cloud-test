@@ -16,6 +16,7 @@ eureka:
 spring:
   application:
     name: app-user
+
 #info属性
 info:
    项目名称: spring-cloud-provider-9001
